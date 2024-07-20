@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Typography */
+
+.bg-even {
+    background-color: #F8F8F8;
+}
+
+.bg-odd {
+    background-color: aliceblue;
+}
+.text-10xl {
+    font-size: 64px;
+}
+
+.cursor {
+    @apply cursor-pointer;
+}
+
+.bg-shadow {
+    @apply shadow-lg;
+}
